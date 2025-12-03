@@ -1,0 +1,67 @@
+#container {
+    display:flex;
+    flex-direction: column;
+    height:100vh;   
+}
+
+.btns {
+    display:flex;
+    flex-direction: column;
+    flex:4;
+
+}
+.row{
+    display: flex;
+    flex: 1;
+}
+
+button{
+    display:flex;
+    flex:1;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgrey;
+    
+}
+
+#screen{
+    display:flex;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    font-size:3em;
+    justify-content: right;
+    align-items:last baseline;
+    flex: 3
+}
+
+#top-row{
+    display:flex;
+    flex:1
+
+}
+#clear {
+    display:flex;
+    flex:1;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+    background-color:lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+
+}
+
+.operation{
+    background-color: rgb(255, 204, 0)
+}
+
+#equal{
+    background-color: rgb(255, 204, 0)
+}
